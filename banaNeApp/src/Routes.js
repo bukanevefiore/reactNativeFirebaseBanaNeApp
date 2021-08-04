@@ -17,8 +17,6 @@ import SignUp from './pages/auth/SignUp';
 const Stack = createNativeStackNavigator();
 
 export default () => {
-
-
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
@@ -27,6 +25,8 @@ export default () => {
       </Stack.Navigator>
     </NavigationContainer>
   )
+
+}
 
 
 function AuthStack() {
@@ -37,6 +37,3 @@ function AuthStack() {
     </Stack.Navigator>
   )
 }
-
-}
-
