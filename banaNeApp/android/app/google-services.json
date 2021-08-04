@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "896949409830",
+    "project_id": "reactnativebananeapp",
+    "storage_bucket": "reactnativebananeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896949409830:android:920c1fae9b54e9f2c5eee7",
+        "android_client_info": {
+          "package_name": "com.bananeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896949409830-pj472m55m29an7do5rt5hje359cgrqfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bananeapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "896949409830-t595gs9llvussj5fnugu4dsitojgc830.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfxmn2UZUGYAIwRfmZUtiXKNu5MYgmlGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896949409830-t595gs9llvussj5fnugu4dsitojgc830.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
