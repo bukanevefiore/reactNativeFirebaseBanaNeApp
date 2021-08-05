@@ -35,6 +35,7 @@ const Login = ({ navigation }) => {
                 message: "Giriş başarılı",
                 type: "success"
             });
+            navigation.navigate("Messages");
         } catch (error) {
             console.log(error);
             showMessage({
