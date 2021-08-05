@@ -4,6 +4,7 @@ import  colors from "../../styles/colors";
 
 export default StyleSheet.create({
     container: {
+        
         position: 'absolute',
         borderRadius: 50,
         width: 60,
@@ -12,5 +13,11 @@ export default StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: colors.blue,
         
+    },
+    cont: {
+        justifyContent: 'flex-end',
+        alignItems: 'flex-end',
+        right: 20,
+        bottom: 50,
     }
 });

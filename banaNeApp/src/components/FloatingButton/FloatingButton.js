@@ -8,10 +8,12 @@ import colors from '../../styles/colors';
 const FloatingButton = ({ onPress, icon }) => {
     return (
 
-        <TouchableOpacity style={styles.container} onPress={onPress}>
+        <View style={styles.cont}>
+            <TouchableOpacity style={styles.container} onPress={onPress}>
             <Icon name={icon} color="white" size={30} />
         </TouchableOpacity>
 
+        </View>
     )
 }
 
