@@ -1,18 +1,23 @@
 import { StyleSheet } from "react-native";
+import colors from "../../styles/colors";
 
 const baseStyle = StyleSheet.create({
         container: {
-            backgroundColor: "blue",
-            margin: 10,
+            backgroundColor: colors.blue,
+            margin: 5,
             borderRadius: 10,
-            alignItems: 'center'
+            alignItems: 'center',
+            
         },
         text: {
             fontWeight: 'bold',
-            color: 'white'
+            color: 'white',
+            fontSize: 18,
+            
         },
         buton_container: {
-            alignItems: 'center'
+            alignItems: 'center',
+            height: 40
         }
 });
 
@@ -29,12 +34,12 @@ export default {
         container: {
             ...baseStyle.container,
             backgroundColor: "white",
-            borderColor: 'blue',
-            borderWidth: 1,
+            borderColor: colors.blue,
+            borderWidth: 2,
         },
         text: {
             ...baseStyle.text,
-            color: 'blue',
+            color: colors.blue,
         },
     })
 }

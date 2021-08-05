@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text, Button, TouchableOpacity, ActivityIndicator } from 'react-native';
 import styles from './Button.styles';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-const Buton = ({ text, loading, onPress, icon, theme="primary" }) => {
+
+const Buton = ({ text, loading, onPress, theme="primary" }) => {
     return (
         <TouchableOpacity style={styles[theme].container}
             onPress={onPress}
@@ -12,7 +12,7 @@ const Buton = ({ text, loading, onPress, icon, theme="primary" }) => {
                 <ActivityIndicator color="white" />
             ) : (
                 <View style={styles[theme].buton_container}>
-                    <Icon name={icon} color="gray" size={18} />
+                   
                     <Text style={styles[theme].text}>{text}</Text>
                 </View>
 
